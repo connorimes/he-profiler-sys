@@ -1,0 +1,17 @@
+[package]
+name = "he-profiler-sys"
+version = "0.1.0"
+authors = ["Connor Imes <connor.k.imes@gmail.com>"]
+description = "FFI bindings to he-profiler"
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/connorimes/he-profiler-sys"
+repository = "https://github.com/connorimes/he-profiler-sys"
+keywords = ["heartbeats", "energymon", "profiler", "timing", "performance", "energy", "power", "bindings"]
+
+build = "build.rs"
+
+[dependencies]
+libc = "0.2"
+
+[build-dependencies]
+pkg-config = "0.3.2"
