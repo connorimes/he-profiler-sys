@@ -6,7 +6,7 @@ Following the *-sys package conventions, this crate does not define
 higher-level abstractions over the native library functions.
 
 The latest `he-profiler` C library can be found at
-[https://github.com/he-profiler/he-profiler](https://github.com/he-profiler/he-profiler).
+[https://github.com/connorimes/he-profiler](https://github.com/connorimes/he-profiler).
 
 ## Dependencies
 
